@@ -1,0 +1,285 @@
+@prefix cp: <http://linkdata.org/property/rdf1s949i#> .
+@prefix ns1: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cp:image a rdf:Property ;
+    rdfs:label "名刺イメージ"@ja .
+
+cp:job a rdf:Property ;
+    rdfs:label "所属"@ja .
+
+cp:memo a rdf:Property ;
+    rdfs:label "メモ"@ja .
+
+cp:reliability a rdf:Property ;
+    rdfs:label "信頼度"@ja .
+
+cp:tag a rdf:Property ;
+    rdfs:label "キーワード"@ja .
+
+<http://linkdata.org/resource/rdf1s949i#dummycard> rdfs:label "dummy_user"@ja ;
+    cp:job "dummy"@ja ;
+    ns1:knows <http://linkdata.org/resource/rdf1s949i#dummycard0>,
+        <http://linkdata.org/resource/rdf1s949i#dummycard1>,
+        <http://linkdata.org/resource/rdf1s949i#dummycard10>,
+        <http://linkdata.org/resource/rdf1s949i#dummycard11>,
+        <http://linkdata.org/resource/rdf1s949i#dummycard12>,
+        <http://linkdata.org/resource/rdf1s949i#dummycard13>,
+        <http://linkdata.org/resource/rdf1s949i#dummycard14>,
+        <http://linkdata.org/resource/rdf1s949i#dummycard15>,
+        <http://linkdata.org/resource/rdf1s949i#dummycard16>,
+        <http://linkdata.org/resource/rdf1s949i#dummycard17>,
+        <http://linkdata.org/resource/rdf1s949i#dummycard18>,
+        <http://linkdata.org/resource/rdf1s949i#dummycard19>,
+        <http://linkdata.org/resource/rdf1s949i#dummycard2>,
+        <http://linkdata.org/resource/rdf1s949i#dummycard20>,
+        <http://linkdata.org/resource/rdf1s949i#dummycard21>,
+        <http://linkdata.org/resource/rdf1s949i#dummycard22>,
+        <http://linkdata.org/resource/rdf1s949i#dummycard23>,
+        <http://linkdata.org/resource/rdf1s949i#dummycard24>,
+        <http://linkdata.org/resource/rdf1s949i#dummycard25>,
+        <http://linkdata.org/resource/rdf1s949i#dummycard26>,
+        <http://linkdata.org/resource/rdf1s949i#dummycard27>,
+        <http://linkdata.org/resource/rdf1s949i#dummycard28>,
+        <http://linkdata.org/resource/rdf1s949i#dummycard29>,
+        <http://linkdata.org/resource/rdf1s949i#dummycard3>,
+        <http://linkdata.org/resource/rdf1s949i#dummycard4>,
+        <http://linkdata.org/resource/rdf1s949i#dummycard5>,
+        <http://linkdata.org/resource/rdf1s949i#dummycard6>,
+        <http://linkdata.org/resource/rdf1s949i#dummycard7>,
+        <http://linkdata.org/resource/rdf1s949i#dummycard8>,
+        <http://linkdata.org/resource/rdf1s949i#dummycard9> .
+
+<http://linkdata.org/resource/rdf1s949i#dummycard0> rdfs:label "dummycard0"@ja ;
+    cp:job "営業"@ja ;
+    cp:memo "突然の昇格"@ja ;
+    cp:open_tag "メンテナンス"@ja,
+        "三次元プリンター"@ja,
+        "販売"@ja ;
+    cp:reliability "5" .
+
+<http://linkdata.org/resource/rdf1s949i#dummycard1> rdfs:label "dummycard1"@ja ;
+    cp:job "社長"@ja ;
+    cp:memo ""@ja ;
+    cp:open_tag "機械工学"@ja,
+        "海外"@ja,
+        "産学連携"@ja ;
+    cp:reliability "3"@ja .
+
+<http://linkdata.org/resource/rdf1s949i#dummycard10> rdfs:label "dummycard10"@ja ;
+    cp:job "社員"@ja ;
+    cp:memo ""@ja ;
+    cp:open_tag "治験"@ja,
+        "開発"@ja,
+        "食品"@ja ;
+    cp:reliability "3"@ja .
+
+<http://linkdata.org/resource/rdf1s949i#dummycard11> rdfs:label "dummycard11"@ja ;
+    cp:job "社長"@ja ;
+    cp:memo ""@ja ;
+    cp:open_tag "自動車"@ja,
+        "製造"@ja ;
+    cp:reliability "4"@ja .
+
+<http://linkdata.org/resource/rdf1s949i#dummycard12> rdfs:label "dummycard12"@ja ;
+    cp:job "社員"@ja ;
+    cp:memo ""@ja ;
+    cp:open_tag "アンケート"@ja,
+        "広告宣伝"@ja,
+        "統計"@ja ;
+    cp:reliability "5"@ja .
+
+<http://linkdata.org/resource/rdf1s949i#dummycard13> rdfs:label "dummycard13"@ja ;
+    cp:job "専務"@ja ;
+    cp:memo "テスト"@ja ;
+    cp:open_tag "テスト"@ja,
+        "営業"@ja,
+        "新規事業"@ja ;
+    cp:reliability "3" .
+
+<http://linkdata.org/resource/rdf1s949i#dummycard14> rdfs:label "dummycard14"@ja ;
+    cp:job "大学教授"@ja ;
+    cp:memo ""@ja ;
+    cp:open_tag "フィルム"@ja,
+        "マテリアル系"@ja,
+        "樹脂"@ja ;
+    cp:reliability "5"@ja .
+
+<http://linkdata.org/resource/rdf1s949i#dummycard15> rdfs:label "dummycard15"@ja ;
+    cp:job "開発"@ja ;
+    cp:memo "aaa"@ja ;
+    cp:open_tag "工作機械"@ja,
+        "金型"@ja,
+        "鋳物"@ja ;
+    cp:reliability "3" .
+
+<http://linkdata.org/resource/rdf1s949i#dummycard16> rdfs:label "dummycard16"@ja ;
+    cp:job "営業"@ja ;
+    cp:memo ""@ja ;
+    cp:open_tag "工作機械"@ja,
+        "販売"@ja ;
+    cp:reliability ""@ja .
+
+<http://linkdata.org/resource/rdf1s949i#dummycard17> rdfs:label "dummycard17"@ja ;
+    cp:job "コンサルタント"@ja ;
+    cp:memo ""@ja ;
+    cp:open_tag "IT"@ja,
+        "システム設計"@ja,
+        "制御"@ja ;
+    cp:reliability "3"@ja .
+
+<http://linkdata.org/resource/rdf1s949i#dummycard18> rdfs:label "dummycard18"@ja ;
+    cp:job "会計士"@ja ;
+    cp:memo "aaa"@ja ;
+    cp:open_tag "会計"@ja,
+        "農業"@ja ;
+    cp:reliability "3" .
+
+<http://linkdata.org/resource/rdf1s949i#dummycard19> rdfs:label "dummycard19"@ja ;
+    cp:job "開発"@ja ;
+    cp:memo ""@ja ;
+    cp:open_tag "アプリ"@ja,
+        "ゲーム"@ja,
+        "タブレット"@ja ;
+    cp:reliability "5"@ja .
+
+<http://linkdata.org/resource/rdf1s949i#dummycard2> rdfs:label "dummycard2"@ja ;
+    cp:job "副理事長"@ja ;
+    cp:memo "食品衛生に関するニーズ"@ja ;
+    cp:open_tag "食の安全"@ja,
+        "食品衛生"@ja,
+        "食品関連企業"@ja ;
+    cp:reliability "4"@ja .
+
+<http://linkdata.org/resource/rdf1s949i#dummycard20> rdfs:label "dummycard20"@ja ;
+    cp:job "大学教授"@ja ;
+    cp:memo "医療機関への紹介"@ja ;
+    cp:open_tag "医療"@ja,
+        "大阪"@ja ;
+    cp:reliability "2" .
+
+<http://linkdata.org/resource/rdf1s949i#dummycard21> rdfs:label "dummycard21"@ja ;
+    cp:job "大学教授"@ja ;
+    cp:memo "テスト"@ja ;
+    cp:open_tag "CT"@ja,
+        "医用画像処理"@ja,
+        "癌"@ja ;
+    cp:reliability "3" .
+
+<http://linkdata.org/resource/rdf1s949i#dummycard22> rdfs:label "dummycard22"@ja ;
+    cp:job "部長"@ja ;
+    cp:memo ""@ja ;
+    cp:open_tag "3Dスキャナ"@ja,
+        "測量"@ja,
+        "自動車"@ja,
+        "販売"@ja ;
+    cp:reliability "5"@ja .
+
+<http://linkdata.org/resource/rdf1s949i#dummycard23> rdfs:label "dummycard23"@ja ;
+    cp:job "研究職"@ja ;
+    cp:memo ""@ja ;
+    cp:open_tag "プラスチック"@ja,
+        "マイクロ波"@ja ;
+    cp:reliability "5"@ja .
+
+<http://linkdata.org/resource/rdf1s949i#dummycard24> rdfs:label "dummycard24"@ja ;
+    cp:job "社員"@ja ;
+    cp:memo "医用画像処理の研究"@ja ;
+    cp:open_tag "医用画像処理"@ja,
+        "医療情報"@ja ;
+    cp:reliability "3" .
+
+<http://linkdata.org/resource/rdf1s949i#dummycard25> rdfs:label "dummycard25"@ja ;
+    cp:job "社員"@ja ;
+    cp:memo ""@ja ;
+    cp:open_tag "管理"@ja,
+        "食品"@ja ;
+    cp:reliability "5"@ja .
+
+<http://linkdata.org/resource/rdf1s949i#dummycard26> rdfs:label "dummycard26"@ja ;
+    cp:job "研究職"@ja ;
+    cp:memo ""@ja ;
+    cp:open_tag "成分分析"@ja,
+        "食品"@ja ;
+    cp:reliability "5"@ja .
+
+<http://linkdata.org/resource/rdf1s949i#dummycard27> rdfs:label "dummycard27"@ja ;
+    cp:job "社員"@ja ;
+    cp:memo ""@ja ;
+    cp:open_tag "切削加工"@ja,
+        "工作機械"@ja,
+        "研削加工"@ja,
+        "販売"@ja ;
+    cp:reliability "5"@ja .
+
+<http://linkdata.org/resource/rdf1s949i#dummycard28> rdfs:label "dummycard28"@ja ;
+    cp:job "社員"@ja ;
+    cp:memo "テスト"@ja ;
+    cp:open_tag "大阪"@ja ;
+    cp:reliability "3" .
+
+<http://linkdata.org/resource/rdf1s949i#dummycard29> rdfs:label "dummycard29"@ja ;
+    cp:job "社長"@ja ;
+    cp:memo ""@ja ;
+    cp:open_tag "機能性評価"@ja ;
+    cp:reliability "3"@ja .
+
+<http://linkdata.org/resource/rdf1s949i#dummycard3> rdfs:label "dummycard3"@ja ;
+    cp:job "大学教授"@ja ;
+    cp:memo "ロボット関連"@ja ;
+    cp:open_tag "制御システム"@ja,
+        "産業用ロボット"@ja ;
+    cp:reliability "4"@ja .
+
+<http://linkdata.org/resource/rdf1s949i#dummycard4> rdfs:label "dummycard4"@ja ;
+    cp:job "営業"@ja ;
+    cp:memo ""@ja ;
+    cp:open_tag "産業用ロボット"@ja,
+        "自動車部品"@ja,
+        "金属加工"@ja ;
+    cp:reliability "5"@ja .
+
+<http://linkdata.org/resource/rdf1s949i#dummycard5> rdfs:label "dummycard5"@ja ;
+    cp:job "役員"@ja ;
+    cp:memo ""@ja ;
+    cp:open_tag "海外"@ja,
+        "缶詰"@ja,
+        "販売"@ja,
+        "食品"@ja ;
+    cp:reliability "4"@ja .
+
+<http://linkdata.org/resource/rdf1s949i#dummycard6> rdfs:label "dummycard6"@ja ;
+    cp:job "研究職"@ja ;
+    cp:memo ""@ja ;
+    cp:open_tag "ゴム"@ja,
+        "プラスチック"@ja,
+        "成形加工"@ja ;
+    cp:reliability "5"@ja .
+
+<http://linkdata.org/resource/rdf1s949i#dummycard7> rdfs:label "dummycard7"@ja ;
+    cp:job "コンサルタント"@ja ;
+    cp:memo ""@ja ;
+    cp:open_tag "インド"@ja,
+        "新規事業"@ja,
+        "食品"@ja ;
+    cp:reliability "5"@ja .
+
+<http://linkdata.org/resource/rdf1s949i#dummycard8> rdfs:label "田中太郎"@ja ;
+    cp:job "コンサルタント"@ja ;
+    cp:memo "高校の同級生 オントロジ"@ja ;
+    cp:open_tag "オントロジ"@ja ;
+    cp:reliability "3" .
+
+<http://linkdata.org/resource/rdf1s949i#dummycard9> rdfs:label "dummycard9"@ja ;
+    cp:job "代表"@ja ;
+    cp:memo ""@ja ;
+    cp:open_tag "米"@ja,
+        "販売"@ja,
+        "農産物"@ja,
+        "食品"@ja ;
+    cp:reliability "4"@ja .
+

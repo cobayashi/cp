@@ -1,0 +1,45 @@
+@prefix cp: <http://linkdata.org/property/rdf1s949i#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.com/testid/2014/06/30/16.20.00> cp:member <http://linkdata.org/resource/rdf1s949i#dummycard13>,
+        <http://linkdata.org/resource/rdf1s949i#dummycard15>,
+        <http://linkdata.org/resource/rdf1s949i#dummycard22> ;
+    cp:reminder "一人欠席"@ja ;
+    dc:date "2014/06/30/16.20.00"@ja ;
+    dc:discription "進捗どうですか"@ja ;
+    dc:subject "◯◯会議"@ja .
+
+<http://example.com/testid/2014/06/30/16.55.32> cp:member <http://linkdata.org/resource/rdf1s949i#dummycard15>,
+        <http://linkdata.org/resource/rdf1s949i#dummycard22>,
+        <http://linkdata.org/resource/rdf1s949i#dummycard29> ;
+    cp:reminder "一人欠席"@ja ;
+    dc:date "2014/06/30/16.55.32"@ja ;
+    dc:discription "おはよう"@ja ;
+    dc:subject "◯会議"@ja .
+
+<http://example.com/testid/2014/07/01/01.31.56> cp:member <http://linkdata.org/resource/rdf1s949i#dummycard14>,
+        <http://linkdata.org/resource/rdf1s949i#dummycard15>,
+        <http://linkdata.org/resource/rdf1s949i#dummycard6> ;
+    cp:reminder "こんばんわ"@ja ;
+    dc:date "2014/07/01/01.31.56"@ja ;
+    dc:discription "こんにちわ"@ja ;
+    dc:subject "おはよう"@ja .
+
+<http://example.com/testid/2014/07/01/16.12.03> cp:member <http://linkdata.org/resource/rdf1s949i#dummycard18> ;
+    cp:reminder "a"@ja ;
+    dc:date "2014/07/01/16.12.03"@ja ;
+    dc:discription "a"@ja ;
+    dc:subject "a"@ja .
+
+<http://example.com/testid/2014/07/11/10.15.57> cp:member <http://linkdata.org/resource/rdf1s949i#dummycard28>,
+        <http://linkdata.org/resource/rdf1s949i#dummycard29>,
+        <http://linkdata.org/resource/rdf1s949i#dummycard4> ;
+    cp:reminder "三人出席です"@ja ;
+    dc:date "2014/07/11/10.15.57"@ja ;
+    dc:discription "１０時から始まりました"@ja ;
+    dc:subject "むんだす会議"@ja .
+

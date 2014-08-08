@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    <script src="./js/cp_main.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<title>
+    c&p
+</title>
+<body>
+    <header role="banner" class="header fixed">
+        <div class="header__left left">
+            <div class="headerSearch left" role="search">
+                <form class="quicksearch">
+                    <input class="quicksearch__input" placeholder="Search" type="search" name="q" autocomplete="off">
+                    <button class="quicksearch__submit submit" type="submit">Search</button>
+                </form> 
+            </div>
+            <div class="logLink right"><a href="cgi/inputLogForm.cgi">議事録の新規作成</a></div>
+            <div class="logList right"><a href="cgi/logList.cgi">議事録</a></div>
+            <div class="edit_button right">タグの編集</div>
+            <div class="back_button1 right">編集内容の保存1</div>
+            <div class="back_button2 right">編集内容の保存2</div>
+        </div>
+    </header>
+    
+    <div class="open_area">公開タグにする</div>
+    <div class="close_area">非公開タグにする</div>
+    <div class="tag_editer">
+        <input type="text" id="tagvalue">
+        <input type="button" value="タグを作る" id="create">
+    </div>
+    <div class="result"></div>
+</body>
+</html>
